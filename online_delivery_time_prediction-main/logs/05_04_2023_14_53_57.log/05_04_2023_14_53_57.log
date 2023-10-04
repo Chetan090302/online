@@ -1,0 +1,6 @@
+[ 2023-05-04 14:53:57,956 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-04 14:53:57,956 ] 186 werkzeug - INFO -  * Debugger PIN: 131-640-771
+[ 2023-05-04 14:54:10,141 ] 186 werkzeug - INFO - 127.0.0.1 - - [04/May/2023 14:54:10] "GET / HTTP/1.1" 200 -
+[ 2023-05-04 14:54:14,857 ] 186 werkzeug - INFO - 127.0.0.1 - - [04/May/2023 14:54:14] "GET / HTTP/1.1" 200 -
+[ 2023-05-04 14:54:54,578 ] 77 root - INFO - Dataframe Gathered
+[ 2023-05-04 14:54:57,847 ] 186 werkzeug - INFO - 127.0.0.1 - - [04/May/2023 14:54:57] "POST /review HTTP/1.1" 200 -

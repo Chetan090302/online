@@ -1,0 +1,12 @@
+[ 2023-05-05 19:45:13,024 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-05 19:45:13,027 ] 186 werkzeug - INFO -  * Debugger PIN: 131-640-771
+[ 2023-05-05 19:45:15,259 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/May/2023 19:45:15] "GET / HTTP/1.1" 200 -
+[ 2023-05-05 19:45:15,276 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/May/2023 19:45:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2023-05-05 19:45:15,276 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/May/2023 19:45:15] "[36mGET /static/images/delivery1.png HTTP/1.1[0m" 304 -
+[ 2023-05-05 19:45:15,280 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/May/2023 19:45:15] "[36mGET /static/images/derivery2.png HTTP/1.1[0m" 304 -
+[ 2023-05-05 19:45:58,830 ] 77 root - INFO - Dataframe Gathered
+[ 2023-05-05 19:46:00,335 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/May/2023 19:46:00] "POST /review HTTP/1.1" 200 -
+[ 2023-05-05 19:46:00,355 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/May/2023 19:46:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2023-05-05 19:46:23,219 ] 77 root - INFO - Dataframe Gathered
+[ 2023-05-05 19:46:23,234 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/May/2023 19:46:23] "POST /review HTTP/1.1" 200 -
+[ 2023-05-05 19:46:23,247 ] 186 werkzeug - INFO - 127.0.0.1 - - [05/May/2023 19:46:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

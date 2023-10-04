@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+gunicorn
+scikit-learn
+flask
+pymongo[srv]
+dnspython
+-e .

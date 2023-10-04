@@ -1,0 +1,9 @@
+[ 2023-08-29 12:08:29,613 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-29 12:08:29,637 ] 187 werkzeug - INFO -  * Debugger PIN: 819-776-339
+[ 2023-08-29 12:09:31,366 ] 187 werkzeug - INFO - 127.0.0.1 - - [29/Aug/2023 12:09:31] "GET / HTTP/1.1" 200 -
+[ 2023-08-29 12:09:38,261 ] 187 werkzeug - INFO - 127.0.0.1 - - [29/Aug/2023 12:09:38] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2023-08-29 12:09:39,045 ] 187 werkzeug - INFO - 127.0.0.1 - - [29/Aug/2023 12:09:39] "GET /static/images/delivery1.png HTTP/1.1" 200 -
+[ 2023-08-29 12:09:39,149 ] 187 werkzeug - INFO - 127.0.0.1 - - [29/Aug/2023 12:09:39] "GET /static/images/derivery2.png HTTP/1.1" 200 -
+[ 2023-08-29 12:10:12,267 ] 77 root - INFO - Dataframe Gathered
+[ 2023-08-29 12:10:37,812 ] 187 werkzeug - INFO - 127.0.0.1 - - [29/Aug/2023 12:10:37] "POST /review HTTP/1.1" 200 -
+[ 2023-08-29 12:10:39,326 ] 187 werkzeug - INFO - 127.0.0.1 - - [29/Aug/2023 12:10:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

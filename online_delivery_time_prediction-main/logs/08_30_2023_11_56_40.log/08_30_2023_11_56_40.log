@@ -1,0 +1,16 @@
+[ 2023-08-30 11:56:46,078 ] 22 root - INFO - Database(MongoClient(host=['ac-r81psfd-shard-00-01.ln8k62l.mongodb.net:27017', 'ac-r81psfd-shard-00-00.ln8k62l.mongodb.net:27017', 'ac-r81psfd-shard-00-02.ln8k62l.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-xn7fbm-shard-0', tls=True), 'test')
+[ 2023-08-30 11:56:46,086 ] 26 root - INFO - Connected to MongoDB....
+[ 2023-08-30 11:56:56,630 ] 12 root - INFO -        Delivery_person_Age  Delivery_person_Ratings Weather_conditions  ... Time_taken (min)   distance time_diff
+0                     36.0                      4.2                Fog  ...               46   6.716044      15.0
+1                     21.0                      4.7             Stormy  ...               23   4.379914      10.0
+2                     23.0                      4.7         Sandstorms  ...               21   9.484418      10.0
+3                     34.0                      4.3         Sandstorms  ...               20   1.908058      10.0
+4                     24.0                      4.7                Fog  ...               41  12.933369      15.0
+...                    ...                      ...                ...  ...              ...        ...       ...
+33778                 30.0                      4.8              Windy  ...               32   0.991569      10.0
+33779                 21.0                      4.6              Windy  ...               36   7.783643      15.0
+33780                 30.0                      4.9             Cloudy  ...               16   3.249860   -1485.0
+33781                 20.0                      4.7             Cloudy  ...               26   4.365756       5.0
+33782                 23.0                      4.9                Fog  ...               36   8.164524       5.0
+
+[33783 rows x 13 columns]

@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% block title %}main page{% endblock %}
+{% block body %}
+<div class="header">
+    <h1>ONLINE_DELIVERY_TIME_PREDICTION</h1>
+    <p>Enhancing Customer Experience through Accurate Delivery Time Predictions for Food Orders</p>
+  </div>
+  
+  <div class="row">
+    <div class="column">
+      <h2>Description Of Online Delivery Time Prediction</h2>
+      <img src="{{ url_for('static', filename='images/delivery1.png') }}" alt="delivery_image" style="width:95%;height:50%">
+      <p>Online delivery time prediction for food items refers to the process of estimating the time it will take for food ordered online to be delivered to the customer's location. This process involves using various data points to predict the time required for the food to be prepared, packaged, and delivered, taking into account factors such as traffic conditions, distance from the restaurant, and delivery personnel availability.</p>
+    <p>The prediction of delivery time can be important for online food delivery services, as it can help to manage customer expectations and improve the overall customer experience. By providing accurate delivery time estimates, customers can plan their day accordingly and avoid unnecessary wait times. Additionally, accurate delivery time prediction can help restaurants and delivery services to manage their resources more efficiently, by ensuring that orders are delivered on time and reducing idle time for delivery personnel.</p>
+    <p>Online delivery time prediction for food items can be implemented using machine learning algorithms and statistical models. These models can be trained on historical data to learn patterns and relationships between different data points, and then used to make predictions based on real-time data. Some of the key data points that can be used for delivery time prediction include the order time, preparation time, packaging time, distance from the restaurant, traffic conditions, and delivery personnel availability.</p>    
+</div>
+    
+    <div class="column">
+        <form action="/review" method="POST">
+            <label>Delivery_person_Age</label>
+            <input type="text" name="age" id="age"><br>
+            <label>Delivery_person_Ratings</label>
+            <input type="text" name="ratings"><br>
+            <label>Restaurant_latitude</label>
+            <input type="text" name="rlat"><br>
+            <label>Restaurant_longitude</label>
+            <input type="text" name="rlon"><br>
+            <label>Delivery_location_latitude</label>
+            <input type="text" name="dlat"><br>
+            <label>Delivery_location_longitude	</label>
+            <input type="text" name="dlon"><br>
+            <label>Time_Orderd</label>
+            <input type="text" name="torder"><br>
+            <label>Time_Order_picked</label>
+            <input type="text" name="tpicked"><br>
+            <label>Weather_conditions</label>
+            <select name="weather">
+                <option value="Fog">Fog</option>
+                <option value="Stormy">Stormy</option>
+                <option value="Sandstorms">Sandstorms</option>
+                <option value="Windy">Windy</option>
+                <option value="Cloudy">Cloudy</option>
+                <option value="Sunny">Sunny</option>
+            </select><br>
+            <label>Road_traffic_density</label>
+            <select name="road_traffic">
+                <option value="Jam">Jam</option>
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select><br>
+            <label>Vehicle_condition</label>
+            <select name="vehicle_cond">
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option value="0">0</option>
+            </select><br>
+            <label>Type_of_order</label>
+            <select name="top">
+                <option value="Snack">Snack</option>
+                <option value="Meal">Meal</option>
+                <option value="Drinks">Drinks</option>
+                <option value="Buffet">Buffet</option>
+            </select><br>
+            <label>Type_of_vehicle</label>
+            <select name="tov">
+                <option value="motorcycle">motorcycle</option>
+                <option value="scooter">scooter</option>
+                <option value="electric_scooter">electric_scooter</option>
+            </select><br>
+            <label>multiple_deliveries</label>
+            <input type="text" name="multi_deli"><br>
+            <label>Festival</label>
+            <select name="fest">
+                <option name="Yes">Yes</option>
+                <option name="No">No</option>
+            </select><br>
+            <label>City</label>
+            <select name="city">
+                <option name="Metropolitian">Metropolitian</option>
+                <option name="Urban">Urban</option>
+                <option name="Semi-Urban">Semi-Urban</option>
+            </select><br>
+    
+            <input type="submit" value="Submit">
+    
+    
+        </form>
+    </div>
+    
+    <div class="column">
+      <h2>Advantages Of Online Delivery Time Prediction</h2>
+      
+      <ul>
+        <li>Customer satisfaction: Providing an accurate estimate of the delivery time can increase customer satisfaction and trust in the delivery service. Customers can plan their time accordingly and have a better experience overall.</li>
+        <li>Improved delivery operations: Delivery time prediction can help delivery service providers to optimize their delivery operations. They can allocate their resources better and ensure timely delivery, reducing delivery costs and increasing efficiency.</li>
+        <li>Better customer service: Predicting delivery time accurately can also help customer service representatives provide more accurate information to customers regarding their order status and expected delivery time, which can improve overall customer service.</li>
+        <li>Increased revenue: Providing reliable delivery estimates can also help food delivery businesses to attract and retain more customers. Customers are more likely to order from a service that can provide accurate delivery estimates, which can increase revenue for the business.</li>
+    </ul>
+    <img src="{{ url_for('static', filename='images/derivery2.png') }}" alt="delivery_image" style="width:95%;height:80%">
+    </div>
+  </div>
+{% endblock %}
